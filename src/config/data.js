@@ -24,45 +24,13 @@ export const blogList = [
     },
     {
         id: 3,
-        title: '3 es un titulo',
+        title: 'El amor de mamá',
         category: 'Opinión',
         subCategory: ['frontend', 'ui/ux', 'design'],
         description: "Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply  ",
         authorName: 'José Nicoleno',
         authorAvatar: '/assets/images/fondo blanco.jpeg',
         createdAt:'Febrero 19, 2023',
-        cover:'/assets/images/imagen2.png'
-    },
-    {
-        id: 4,
-        title: '3 es un titulo',
-        category: 'Opinión',
-        subCategory: ['frontend', 'ui/ux', 'design'],
-        description: "Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply  ",
-        authorName: 'José Nicoleno',
-        authorAvatar: '/assets/images/fondo blanco.jpeg',
-        createdAt:'Febrero 19, 2023',
-        cover:'/assets/images/imagen2.png'
-    },{
-        id: 5,
-        title: '3 es un titulo',
-        category: 'Opinión',
-        subCategory: ['frontend', 'ui/ux', 'design'],
-        description: "Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply  ",
-        authorName: 'José Nicoleno',
-        authorAvatar: '/assets/images/fondo blanco.jpeg',
-        createdAt:'Febrero 19, 2023',
-        cover:'/assets/images/imagen2.png'
-    },
-    {
-        id: 6,
-        title: '3 es un titulo',
-        category: 'Opinión',
-        subCategory: ['frontend', 'ui/ux', 'design'],
-        description: "Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply  ",
-        authorName: 'José Nicoleno',
-        authorAvatar: '/assets/images/fondo blanco.jpeg',
-        createdAt:'Febrero 19, 2023',
-        cover:'/assets/images/imagen2.png'
-    },
+        cover:'/assets/images/mama.jpg'
+    }
 ]
