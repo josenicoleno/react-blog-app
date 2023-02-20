@@ -23,24 +23,23 @@ const Blog = () => {
       <Link className='blog-goBack' to='/'>
         <span>&#8592;</span>Go back
       </Link>
-      {
-        blog ?
-          <div className='blog-wrap'>
-            <header>
-              <p className='blog-date'>Published {blog.createdAt}</p>
-              <h1>{blog.title}</h1>
-              <div className='blog-subCategory'>
-                {blog.subCategory.map(
-                  (category, index) =>
-                    <div key={index}>
-                      <Chip label={category} />
-                    </div>
-                )}
-              </div>
-            </header>
-            <img src={blog.cover} alt='cover'></img>
-            <p className='blog-description'>{blog.description}</p>
-          </div> : <EmptyList />
+      {blog ?
+        <div className='blog-wrap'>
+          <header>
+            <p className='blog-date'>Published {blog.createdAt}</p>
+            <h1>{blog.title}</h1>
+            <div className='blog-subCategory'>
+              {blog.subCategory.map(
+                (category, index) =>
+                  <div key={index}>
+                    <Chip label={category} />
+                  </div>
+              )}
+            </div>
+          </header>
+          <img src={blog.cover} alt='cover'></img>
+          <p className='blog-description'>{blog.description}</p>
+        </div> : <EmptyList />
       }
     </div>
   )
