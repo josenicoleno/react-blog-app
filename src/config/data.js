@@ -25,7 +25,7 @@ export const blogList = [
     {
         id: 3,
         title: 'El amor de mamá',
-        category: 'Opinión',
+        category: 'Amor',
         subCategory: ['frontend', 'ui/ux', 'design'],
         description: "Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply Lorem ipsum is simply  ",
         authorName: 'José Nicoleno',
