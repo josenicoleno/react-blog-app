@@ -10,7 +10,6 @@ const BlogItem = ({ blog }) => {
             <Chip label={blog.category} />
             <h3>{blog.title}</h3>
             <p className='blogItem-description'>{blog.description}</p>
-
             <footer>
                 <div className="blogItem-author">
                     <img src={blog.authorAvatar} alt="avatar" />

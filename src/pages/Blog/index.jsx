@@ -21,7 +21,7 @@ const Blog = () => {
   return (
     <div>
       <Link className='blog-goBack' to='/'>
-        <span>&#8592;</span>Go back
+        <span>&#8592;</span>Volver
       </Link>
       {blog ?
         <div className='blog-wrap'>

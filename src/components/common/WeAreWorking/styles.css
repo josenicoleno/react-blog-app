@@ -1,0 +1,9 @@
+.weAreWorking-wrap {
+  justify-content: center;
+  display: flex;
+}
+
+.weAreWorking-wrap > img {
+  width: 250px;
+  padding-top: 3rem;
+}
