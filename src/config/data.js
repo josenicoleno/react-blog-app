@@ -28,6 +28,10 @@ export const blogList = [
         authorName: 'José Nicoleno',
         authorAvatar: '/assets/images/fondo blanco.jpeg',
         createdAt:'Febrero 19, 2023',
-        cover:'/assets/images/mama.jpg'
+        cover:'/assets/images/mama.jpg',
+        coments:{
+            authorName:"",
+            createdAt:"19/02/2023"
+        }
     }
 ]
