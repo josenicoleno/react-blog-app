@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import './styles.css'
+import { aboutMe } from '../../config/aboutMe'
 
 const AboutMe = () => {
+  const [data, setData] = useState(aboutMe);
+
+  useEffect(() => {
+    let data = aboutMe.find((data) => data.description !== '')
+    setData(data.description ? data : '')
+  }, []);
+  
+  console.log(data)
   return (
     <div className='aboutMe-wrap'>
-        <img src='/assets/images/imagen1.png' alt='perfil'></img>
-        <p>Sobre mí</p>
-        <h1>Hola soy josé</h1>
-      hola soy yo, José
+      <h2>Sobre mí</h2>
+      <div className='aboutMe-columns'>
+        <img src={data.photo} alt='foto'/>
+        <p>{data.description}</p>
+      </div>
     </div>
   )
 }

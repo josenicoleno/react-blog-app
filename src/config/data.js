@@ -33,5 +33,5 @@ export const blogList = [
             authorName:"",
             createdAt:"19/02/2023"
         }
-    }
+    },
 ]

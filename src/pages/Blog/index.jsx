@@ -23,7 +23,8 @@ const Blog = () => {
       <Link className='blog-goBack' to='/'>
         <span>&#8592;</span>Volver
       </Link>
-      {blog ?
+      {!blog ?
+        <EmptyList /> :
         <div className='blog-wrap'>
           <header>
             <p className='blog-date'>Published {blog.createdAt}</p>
@@ -39,7 +40,7 @@ const Blog = () => {
           </header>
           <img src={blog.cover} alt='cover'></img>
           <p className='blog-description'>{blog.description}</p>
-        </div> : <EmptyList />
+        </div>
       }
     </div>
   )
