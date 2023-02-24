@@ -1,6 +1,15 @@
 .blogItem-wrap {
   display: flex;
   flex-direction: column;
+  background:white;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.blogItem-wrap:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .blogItem-cover {
@@ -12,8 +21,12 @@
 }
 
 .blogItem-wrap h3 {
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem 0 0.5rem 0;
   flex: 1;
+  text-align:center;
+}
+.blogItem-wrap p{
+  margin-bottom:0;
 }
 
 .blogItem-description {
@@ -23,6 +36,7 @@
   font-size: 0.8rem;
   padding-right: 0.6rem;
   color: #a9a9a9;
+  text-align:justify;
 }
 
 .blogItem-description::before {

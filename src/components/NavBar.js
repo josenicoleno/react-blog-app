@@ -1,29 +1,35 @@
-import { Link, NavLink } from 'react-router-dom';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+/* import NavDropdown from "react-bootstrap/NavDropdown"; */
 
 const NavBar = () => {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/">
-                    {/* <img src="https://media-exp1.licdn.com/dms/image/C4D03AQEd2CQXeG62dg/profile-displayphoto-shrink_800_800/0/1655429606299?e=2147483647&v=beta&t=KHPLYXIS_pCJE2RImnz50qWe4Ub3knIiLgRMAlTaUkc" alt="" width="30" height="24" className="d-inline-block align-text-top" /> */}
-                    Home
-                </NavLink>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        {/* <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                        </li> */}
-                        <li className="nav-item">
-                            <Link className="nav-link" to="sobre-mi/">Sobre mí</Link>
-                        </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" to="blog">Blog</Link>
-                        </li> */}
-                    </ul>
-                </div>
-            </div>
-            {/* <Link to="carrito"><CartWidget /></Link> */}
-        </nav>
-    );
+  return (
+    <Navbar bg="" expand="lg">
+      <Container>
+        <Navbar.Brand href="/">Inicio</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          {/* Los elementos que se ocultan */}
+          <Nav className="me-auto">
+            {/* <Nav.Link href="/">Home</Nav.Link> */}
+            <Nav.Link href="sobre-mi/">Sobre mí</Nav.Link>
+            {/* EL dropdown 
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown> */}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 };
 export default NavBar;
