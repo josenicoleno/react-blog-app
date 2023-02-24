@@ -1,11 +1,18 @@
 import React from 'react'
 import './style.css'
 import Chip from '../../../common/Chip';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const BlogItem = ({ blog }) => {
+
+    let navigate = useNavigate();
+    const routeChange = () =>{
+        let routeChange = `/blog/${blog.id}`;
+        navigate(routeChange)
+    }
+
     return (
-        <div className='blogItem-wrap'>
+        <div className='blogItem-wrap' onClick={routeChange}>
             <img src={blog.cover} alt={blog.cover} className="blogItem-cover"></img>
             <Chip label={blog.category} />
             <h3>{blog.title}</h3>

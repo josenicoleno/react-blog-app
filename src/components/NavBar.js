@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 /* import NavDropdown from "react-bootstrap/NavDropdown"; */
 
 const NavBar = () => {
@@ -13,7 +14,7 @@ const NavBar = () => {
           {/* Los elementos que se ocultan */}
           <Nav className="me-auto">
             {/* <Nav.Link href="/">Home</Nav.Link> */}
-            <Nav.Link href="sobre-mi/">Sobre mí</Nav.Link>
+            <Link className="nav-link" to="sobre-mi/">Sobre mí</Link>
             {/* EL dropdown 
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
