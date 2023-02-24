@@ -27,7 +27,7 @@ export const blogList = [
             "pero ojalá que siempre sepa cuanto la amo. Es mi forma de decirle, quizás, hasta el infinito y más allá.",
         authorName: 'José Nicoleno',
         authorAvatar: '/assets/images/fondo blanco.jpeg',
-        createdAt:'Febrero 19, 2023',
+        createdAt:'19 de febrero, 2023',
         cover:'/assets/images/mama.jpg',
         coments:{
             authorName:"",

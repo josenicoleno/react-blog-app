@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './styles.css'
 import { aboutMe } from '../../config/aboutMe'
+import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
   const [data, setData] = useState(aboutMe);
@@ -9,16 +10,21 @@ const AboutMe = () => {
     let data = aboutMe.find((data) => data.description !== '')
     setData(data.description ? data : '')
   }, []);
-  
+
   console.log(data)
   return (
-    <div className='aboutMe-wrap'>
-      <h2>Sobre mí</h2>
-      <div className='aboutMe-columns'>
-        <img src={data.photo} alt='foto'/>
-        <p>{data.description}</p>
+    <>
+      <Link className='blog-goBack' to='/'>
+        <span>&#8592;</span>Volver
+      </Link>
+      <div className='aboutMe-wrap'>
+        <h2>Sobre mí</h2>
+        <div className='aboutMe-columns'>
+          <img src={data.photo} alt='foto' />
+          <p>{data.description}</p>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

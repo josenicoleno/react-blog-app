@@ -27,7 +27,7 @@ const Blog = () => {
         <EmptyList /> :
         <div className='blog-wrap'>
           <header>
-            <p className='blog-date'>Published {blog.createdAt}</p>
+            <p className='blog-date'>Publicado el {blog.createdAt}</p>
             <h1>{blog.title}</h1>
             <div className='blog-subCategory'>
               {blog.subCategory.map(
