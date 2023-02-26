@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import AboutMe from './components/About me';
 import WeAreWorking from './components/common/WeAreWorking';
-/* import Footer from './components/Footer'; */
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <Route path='/working/*' element={<WeAreWorking />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
-         {/* <Footer /> */}
+         <Footer />
       </BrowserRouter>
     </div>
   );
