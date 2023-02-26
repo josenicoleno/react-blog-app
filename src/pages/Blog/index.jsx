@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Chip from '../../components/common/Chip';
 import EmptyList from '../../components/common/EmptyList';
 import { blogList } from '../../config/data';
-import './style.css';
+import './styles.css';
 
 const Blog = () => {
   const { id } = useParams();

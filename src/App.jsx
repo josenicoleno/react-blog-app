@@ -21,7 +21,7 @@ function App() {
           <Route path='/working/*' element={<WeAreWorking />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
-         <Footer />
+        <Footer />
       </BrowserRouter>
     </div>
   );

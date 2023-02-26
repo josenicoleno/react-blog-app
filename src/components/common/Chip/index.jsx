@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './styles.css'
 const Chip = ({label}) => {
   return (
     <p className='chip'>

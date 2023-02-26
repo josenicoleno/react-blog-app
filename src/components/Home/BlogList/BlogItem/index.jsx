@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './styles.css'
 import Chip from '../../../common/Chip';
 import { Link, useNavigate } from 'react-router-dom';
 
