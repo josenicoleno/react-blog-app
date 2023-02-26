@@ -13,9 +13,8 @@ const AboutMe = () => {
   if (data.description) {
     var doc = document.getElementById("id-description")
     doc.innerHTML = `<p>${data.description}</p>`;
-  }else{
-    console.log(`else ${doc}`)
   }
+  
   return (
     <>
       <Link className='blog-goBack' to='/'>
