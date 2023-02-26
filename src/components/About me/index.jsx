@@ -10,8 +10,12 @@ const AboutMe = () => {
     let data = aboutMe.find((data) => data.description !== '')
     setData(data.description ? data : '')
   }, []);
-
-  console.log(data)
+  if (data.description) {
+    var doc = document.getElementById("id-description")
+    doc.innerHTML = `<p>${data.description}</p>`;
+  }else{
+    console.log(`else ${doc}`)
+  }
   return (
     <>
       <Link className='blog-goBack' to='/'>
@@ -19,9 +23,9 @@ const AboutMe = () => {
       </Link>
       <div className='aboutMe-wrap'>
         <h2>Sobre mí</h2>
-        <div className='aboutMe-columns'>
+        <div id='id-about-me' className='aboutMe-columns'>
           <img src={data.photo} alt='foto' />
-          <p>{data.description}</p>
+          <div id="id-description"></div>
         </div>
       </div>
     </>

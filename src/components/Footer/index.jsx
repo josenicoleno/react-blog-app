@@ -14,7 +14,7 @@ const Footer = () => {
                     <li><a href="https://github.com/josenicoleno" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
                 </ul>
                 <h3>José Nicoleno</h3>
-                <p>Este sitio lo realicé con JavaSript, React, Bootstrap y otras dependencias. Para más información ponte en contacto conmigo por cualquiera de mis plataformas o escríbeme a <a href="mailto:josenicoleno@gmail.com">josenicoleno@gmail.com</a></p>
+                <p>Este sitio lo realicé con JavaScript, React, Bootstrap, Netlify y otras dependencias. Para más información ponte en contacto conmigo por cualquiera de mis plataformas o escríbeme a <a href="mailto:josenicoleno@gmail.com">josenicoleno@gmail.com</a></p>
             </div>
             <div className="footer-bottom">
                 <p>Copyright &copy; <a href="https://www.instagram.com/jose.nicoleno/">José Nicoleno</a>  </p>

@@ -1,7 +1,13 @@
 export const aboutMe = [
   {
     photo: "/assets/images/perfil con fondo.png",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget vulputate ipsum. Morbi eu malesuada magna, et gravida dolor. Etiam euismod purus quam, sed luctus enim feugiat et. Ut id orci porta, maximus felis sed, venenatis lacus. Praesent facilisis, ipsum sed viverra vestibulum, enim lorem faucibus leo, at mollis ipsum urna et nulla. Donec arcu ipsum, sollicitudin in fermentum sit amet, facilisis in nisl. Donec auctor orci eu pulvinar cursus. Integer ac justo at sapien interdum tincidunt vitae vitae lorem. Fusce eu vehicula ex. Aliquam euismod non turpis vel pellentesque. Quisque nec vulputate odio.Me llamo José. Nacido en Salta, Argentina. \n\n" + 
-    "Suspendisse commodo, tellus nec iaculis porta, lorem ex varius mauris, vel placerat purus elit ut massa. Aliquam erat volutpat. Sed turpis purus, eleifend ac egestas vel, luctus nec lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse tempus diam vitae nulla pulvinar ultrices. Cras viverra gravida mi, id commodo lorem mattis in. Vivamus porta et quam id volutpat. Quisque blandit massa magna, in pulvinar felis interdum non.",
+    description: 'Soy José. Nacido en <a href="https://goo.gl/maps/s3hrT3Dd13Ru8mP5A" target="_blank" rel="noopener noreferrer"> Salta, Argentina.</a><br />'+
+    'Estudié y me gradué de Licenciado en Análisis de Sistemas en la Universidad Nacional de Salta (<a href="https://www.unsa.edu.ar/" target="_blank" rel="noopener noreferrer">UNSa</a>).<br />'+
+    'Soy referí y jugador de rugby de <a href="https://www.facebook.com/gytoficial" target="_blank" rel="noopener noreferrer">Gimnasia y Tiro de Salta</a>.<br />'+
+    'Actualmente me encuentro en una Campinia de Italia en Salerno. Estoy viviendo acá junto a mi esposa. Nos vinimos en búsqueda de aventuras...y algunos papeles.<br />'+
+    'Trabajo desde mi casa para la empresa <a href="https://www.tecnologisticaconsultores.com/" target="_blank" rel="noopener noreferrer">Tecnologística Consultores</a> como desarrollador de software. Estoy en esta hermosa empresa'+
+    'desde junio de 2022.<br/>'+
+    'Siempre quise abrir mi blog para poder escribir y contar algo sobre las cosas que pienso o me gustan; así que no perdí más tiempo y armé este blog con las herramientas de distintos cursos y de lo que voy aprendiendo. <br>'+
+    'Si queres saber más sobre mí, podés acceder a mi <a href="https://drive.google.com/file/d/1fk6qGQtkV0Wnhp7Hs1A5fEhiiwutKMg9/view?usp=share_link" target="_blank" rel="noopener noreferrer">Curriculum Vitae haciendo clic aquí</a>, o siguiéndome en <a href="https://www.linkedin.com/in/jose-nicoleno/" target="_blank" rel="noopener noreferrer">LinkendIn</a>.'
   },
 ];

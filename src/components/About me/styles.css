@@ -42,8 +42,13 @@
   padding: 1rem;
   padding-right: 2rem;
   margin-top: 1.5rem;
+  line-height:2rem;
   text-align: justify;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -o-pre-wrap;
+}
+
+.aboutMe-columns p > a {
+  text-decoration:none;
 }
