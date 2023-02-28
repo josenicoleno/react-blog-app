@@ -6,7 +6,7 @@ import SearchBar from '../../components/Home/SearchBar';
 import { blogList } from '../../config/data';
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(blogList);
+  const [blogs, setBlogs] = useState(blogList.filter(blog => blog.active === true));
   const [searchKey, setSearchKey] = useState('');
 
   //search submit
@@ -25,6 +25,7 @@ const Home = () => {
     setBlogs(blogList);
     setSearchKey('');
   }
+  
   return (
     <div>
       {/* Page Header */}

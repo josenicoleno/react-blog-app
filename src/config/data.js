@@ -24,14 +24,17 @@ export const blogList = [
             'Y quizás leerlo más o menos así: ' +
             '"Mi amor por mamá es aún más grande que el conjunto infinito de los Reales." \n' +
             "Nunca supe cómo decirselo y tampoco sé si me va a entender lo que le quiero decir con esto, " + 
-            "pero ojalá que siempre sepa cuanto la amo. Es mi forma de decirle, quizás, hasta el infinito y más allá.",
+            "pero ojalá que siempre sepa cuanto la amo. Es mi forma de decirle, quizás, hasta el infinito y más allá. \n" +
+            "¿Y vos cómo amás?",
         authorName: 'José Nicoleno',
         authorAvatar: '/assets/images/fondo blanco.jpeg',
         createdAt:'19 de febrero, 2023',
         cover:'/assets/images/mama.jpg',
+        references:[['Cardinalidad: conjuntos numerábles y no numerables', 'https://youtu.be/HqiOj75fqRo'], ],
         coments:{
             authorName:"",
             createdAt:"19/02/2023"
-        }
+        },
+        active:true,
     },
 ]

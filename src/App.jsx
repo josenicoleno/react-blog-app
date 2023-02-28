@@ -4,9 +4,9 @@ import NavBar from './components/NavBar';
 import PageNotFound from './components/PageNotFound';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
-import AboutMe from './components/About me';
 import WeAreWorking from './components/common/WeAreWorking';
 import Footer from './components/Footer';
+import AboutMe from './pages/About me';
 
 function App() {
   return (

@@ -28,18 +28,23 @@ const Blog = () => {
         <div className='blog-wrap'>
           <header>
             <p className='blog-date'>Publicado el {blog.createdAt}</p>
-            <h1>{blog.title}</h1>
-            <div className='blog-subCategory'>
-              {blog.subCategory.map(
-                (category, index) =>
-                  <div key={index}>
-                    <Chip label={category} />
-                  </div>
-              )}
-            </div>
+            <h1 className='blog-title'>{blog.title}</h1>
+
           </header>
           <img src={blog.cover} alt='cover'></img>
           <p className='blog-description'>{blog.description}</p>
+          <div className='blog-subCategory'>
+            {blog.subCategory.map(
+              (category, index) =>
+                <div key={index}>
+                  <Chip label={category} />
+                </div>
+            )}
+          </div>
+          <div className="blog-references">
+            <p className=''>Referencias</p>
+            <a className='' href={blog.references[0][1]}>{blog.references[0][0]}</a>
+          </div>
         </div>
       }
     </div>
