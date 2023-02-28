@@ -7,7 +7,7 @@ npm install react-router
 # Install react-bootstrap
 npm install react-bootstrap bootstrap
 
-# Install font awensome - esta poronga rompe el proy
+# Install font awensome - este rompió el proy
 npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontawesome 
