@@ -14,6 +14,7 @@ const Home = () => {
     event.preventDefault();
     handleSearchResults();
   }
+  
   //search for blogs my categories
   const handleSearchResults = () => {
     const allBlogs = blogList;
@@ -25,7 +26,7 @@ const Home = () => {
     setBlogs(blogList);
     setSearchKey('');
   }
-  
+
   return (
     <div>
       {/* Page Header */}

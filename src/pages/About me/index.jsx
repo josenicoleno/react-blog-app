@@ -4,17 +4,20 @@ import { aboutMe } from '../../config/aboutMe'
 import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
+  const defaultLangage = 'es'
+  const e = 'es'
   const [data, setData] = useState(aboutMe);
-
+  
   useEffect(() => {
-    let data = aboutMe.find((data) => data.description !== '')
-    setData(data.description ? data : '')
+    let data = aboutMe.find(data => data.language === e)
+    setData(data?.description ? data : aboutMe.find(data =>data.language === defaultLangage))
   }, []);
+  
   if (data.description) {
     var doc = document.getElementById("id-description")
     doc.innerHTML = `<p>${data.description}</p>`;
   }
-  
+
   return (
     <>
       <Link className='blog-goBack' to='/'>
