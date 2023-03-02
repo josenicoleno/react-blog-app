@@ -17,8 +17,8 @@ export const aboutMe = [
     language:'en',
     photo: "/assets/images/perfil con fondo.png",
     description: 'I am José. I was born in <a href="https://goo.gl/maps/s3hrT3Dd13Ru8mP5A" target="_blank" rel="noopener noreferrer"> Salta, Argentina.</a><br />'+
-    'I Studied y me gradué de Licenciado en Análisis de Sistemas en la Universidad Nacional de Salta (<a href="https://www.unsa.edu.ar/" target="_blank" rel="noopener noreferrer">UNSa</a>).<br />'+
-    'Soy referí y jugador de rugby de <a href="https://www.facebook.com/gytoficial" target="_blank" rel="noopener noreferrer">Gimnasia y Tiro de Salta</a>.<br />'+
+    'I am Bachelor in Analyst of Systems. I Studied in Universidad Nacional de Salta (<a href="https://www.unsa.edu.ar/" target="_blank" rel="noopener noreferrer">UNSa</a>).<br />'+
+    'I love the (most) sports but my prefered is the Rugby. referí y jugador de rugby de <a href="https://www.facebook.com/gytoficial" target="_blank" rel="noopener noreferrer">Gimnasia y Tiro de Salta</a>.<br />'+
     'Actualmente me encuentro en una Campinia de Italia en Salerno. Estoy viviendo acá junto a mi esposa. Nos vinimos en búsqueda de aventuras...y algunos papeles.<br />'+
     'Trabajo desde mi casa para la empresa <a href="https://www.tecnologisticaconsultores.com/" target="_blank" rel="noopener noreferrer">Tecnologística Consultores</a> como desarrollador de software. Estoy en esta hermosa empresa '+
     'desde junio de 2022.<br/>'+
