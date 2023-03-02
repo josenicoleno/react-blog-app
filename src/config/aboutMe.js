@@ -10,7 +10,7 @@ export const aboutMe = [
     'Trabajo desde mi casa para la empresa <a href="https://www.tecnologisticaconsultores.com/" target="_blank" rel="noopener noreferrer">Tecnologística Consultores</a> como desarrollador de software. Estoy en esta hermosa empresa '+
     'desde junio de 2022.<br/>'+
     'Siempre quise abrir mi blog para poder escribir y contar sobre las cosas que pienso y me gustan; así que no perdí más tiempo y armé este blog con las herramientas de cursos y de lo que voy aprendiendo día a día. <br>'+
-    'Si queres saber más sobre mí, podés descargar mi <a href="https://drive.google.com/file/d/1fk6qGQtkV0Wnhp7Hs1A5fEhiiwutKMg9/view?usp=share_link" target="_blank" rel="noopener noreferrer">Curriculum Vitae haciendo clic aquí</a>, o siguiéndome por <a href="https://www.linkedin.com/in/jose-nicoleno/" target="_blank" rel="noopener noreferrer">LinkendIn</a>.'
+    'Si querés saber más sobre mí, podés descargar mi <a href="https://drive.google.com/file/d/1fk6qGQtkV0Wnhp7Hs1A5fEhiiwutKMg9/view?usp=share_link" target="_blank" rel="noopener noreferrer">Curriculum Vitae haciendo clic aquí</a>, o siguiéndome por <a href="https://www.linkedin.com/in/jose-nicoleno/" target="_blank" rel="noopener noreferrer">LinkendIn</a>.'
   },
   {
     id:2,
