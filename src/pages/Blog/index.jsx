@@ -43,11 +43,13 @@ const Blog = () => {
           </div>
           <div className="blog-references">
             <p className=''>Referencias</p>
-            <a className='' href={blog.references[0][1]}>{blog.references[0][0]}</a>
+            <ol>
+              {blog.references.map((reference, id) => <li key={id} > <a href={reference[1]}>{reference[0]}</a></li>)}
+            </ol>
           </div>
         </div>
       }
-    </div>
+    </div >
   )
 }
 

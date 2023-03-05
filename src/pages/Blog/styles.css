@@ -61,6 +61,7 @@
 }
 .blog-references p {
   font-weight: bold;
+  margin:0;
 }
 
 .blog-references a {
