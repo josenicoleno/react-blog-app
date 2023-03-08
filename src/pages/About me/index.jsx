@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react'
 import './styles.css'
 import { aboutMe } from '../../config/aboutMe'
 import { Link } from 'react-router-dom';
+import MyWorkList from '../../components/AboutMe/MyWorkList';
+import { workList } from '../../config/myWorks';
+import Header from '../../components/AboutMe/MyWorkList/Header';
 
 const AboutMe = () => {
   const defaultLangage = 'es'
@@ -33,6 +36,10 @@ const AboutMe = () => {
           <a href={data.urlCvSpanish} target="_blank" rel="noopener noreferrer"><img src='/assets/images/espana.png' alt='Castellano'></img></a>
           {/* <a href={data.urlCvEnglish} target="_blank" rel="noopener noreferrer"><img src='/assets/images/italia.png' alt='Italiano'></img></a> */}
           <a href={data.urlCvEnglish} target="_blank" rel="noopener noreferrer"><img src='/assets/images/inglaterra.png' alt='Inglés'></img></a>
+        </div>
+        <div className='myWorkList'>
+          <Header/>
+          <MyWorkList works={workList} />
         </div>
       </div>
     </>

@@ -80,7 +80,7 @@ export const blogList = [
       {
         id: 1,
         name: "Cardinalidad: conjuntos numerábles y no numerables",
-        source: "https://youtu.be/HqiOj75fqRo",
+        source: "https://www.xataka.com/investigacion/mito-libre-albedrio-debate-somos-arbitros-nuestro-propio-destino-simples-marionetas-carentes-valor-3",
       },
       {
         id: 2,
