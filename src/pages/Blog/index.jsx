@@ -11,7 +11,7 @@ const Blog = () => {
   const [blog, setBlog] = useState(null);
 
   useEffect(() => {
-    let blog = blogList.find((blog) => blog.id === parseInt(id));
+    let blog = blogList.find((blog) => blog.id === parseInt(id) && blog.active);
     if (blog) {
       setBlog(blog)
     }
@@ -32,7 +32,7 @@ const Blog = () => {
           </header>
           <img src={blog.cover} alt='cover'></img>
           <div id='id-description'>
-          <div className='blog-description'dangerouslySetInnerHTML={{ __html:blog.description}}/>
+            <div className='blog-description' dangerouslySetInnerHTML={{ __html: blog.description }} />
           </div>
           <div className='blog-subCategory'>
             {blog.subCategory.map(
@@ -42,12 +42,15 @@ const Blog = () => {
                 </div>
             )}
           </div>
-          <div className="blog-references">
-            <p className=''>Referencias</p>
-            <ol>
-              {blog.references.map((reference, index) => <li key={index}><a href={reference.source}>{reference.name}</a></li>)}
-            </ol>
-          </div>
+          {blog.references.length > 0 ?
+            <div className="blog-references">
+              < p className=''>Referencias</p>
+              <ol>
+                {blog.references.map((reference, index) => <li key={index}><a href={reference.source}>{reference.name}</a></li>)}
+              </ol>
+            </div>
+            : <></>
+          }
         </div>
       }
     </div >
