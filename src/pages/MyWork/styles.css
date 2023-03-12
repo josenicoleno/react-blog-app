@@ -1,70 +1,74 @@
 .work-wrap {
-    max-width: 700px;
-    margin: 0 auto;
-  }
-  
-  .work-goBack {
-    text-decoration: none;
-    font-size: 0.8rem;
-    color: black;
-    font-weight: 500;
-    margin-bottom: 0;
-    display: block;
-    width: fit-content;
-  }
-  
-  .work-wrap header {
-    text-align: center;
-  }
-  
-  .work-wrap img {
-    display: block;
-    max-width: 600px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
-  }
-  
-  .work-date {
-    font-size: 0.8rem;
-    color: #a9a9a9;
-    font-weight: 500;
-    margin-bottom:0;
-  }
-  
-  .work-title{
-    margin:0;
-    padding:0.5rem;
-  }
-  
-  .work-subCategory {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .work-subCategory > div {
-    margin: 1rem;
-  }
-  
-  .work-description {
-    padding: 1rem;
-    margin-top: 1.5rem;
-    text-align: justify;
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -o-pre-wrap;
-  }
-  
-  .work-references {
-    padding: 0 1rem 0 0;
-  }
-  .work-references p {
-    font-weight: bold;
-    margin:0;
-  }
-  
-  .work-references a {
-    text-decoration: none;
-  }
-  
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.work-goBack {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 0;
+  display: block;
+  width: fit-content;
+}
+
+.work-wrap header {
+  text-align: center;
+}
+
+.work-wrap img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+.work-date {
+  font-size: 0.8rem;
+  color: #a9a9a9;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.work-title {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.work-subCategory {
+  display: flex;
+  justify-content: center;
+}
+
+.work-subCategory > div {
+  margin: 1rem;
+}
+
+.work-description {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  text-align: justify;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
+.work-references {
+  padding: 0 1rem 0 0;
+}
+.work-references p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.work-references a {
+  text-decoration: none;
+}
+
+.work-description{
+  display:flex;
+  justify-content:center;
+}

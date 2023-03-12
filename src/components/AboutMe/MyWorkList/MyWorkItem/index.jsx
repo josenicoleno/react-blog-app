@@ -9,7 +9,6 @@ const MyWorkItem = ({ work }) => {
         let routeChange = `/work/${work.id}`;
         navigate(routeChange)
     }
-
     return (
         <div className='workItem-wrap' onClick={routeChange}>
             <img src={work.cover} alt={work.cover} className="workItem-cover"></img>

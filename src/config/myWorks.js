@@ -5,12 +5,17 @@ export const workList = [
     category: "Fondo blanco",
     subCategory: [".Net", "SQL-Server", "Genexus 15", "WorkWithPlus", "IIS"],
     description:
-      "Sistema creado para negocio de bebidas. Los usuarios se loguean por usuario y contraseña. Los usuarios tienen roles asignados. ",
+      "Sistema creado para negocio de bebidas. Los usuarios se loguean por usuario y contraseña. Los usuarios tienen roles asignados. <br>" +
+      "pepito",
     authorName: "José Nicoleno",
     authorAvatar: "/assets/images/fondo blanco.jpeg",
     createdAt: "19 de febrero, 2023",
     cover:
       "https://scontent-fco2-1.xx.fbcdn.net/v/t39.30808-6/301137454_491598962972763_492081096545186259_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3y-Y6wBZFHQAX9cTLER&_nc_ht=scontent-fco2-1.xx&oh=00_AfCO6ZHHx6S_T1noT-tH5AHbyzS7BxxPNa9y3GK4e0-AfQ&oe=6410442D",
+    presentation960:
+      '<iframe id="idframe" src="https://docs.google.com/presentation/d/e/2PACX-1vSJ-l7OpaGxumrDhy6Tp8Q9jeF3Xiu9OAQD3N-weBDEjjAUrI13KiTJZSWXDrD3iqYL2ElDGZoUg3iO/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>',
+    presentation480:
+      '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJ-l7OpaGxumrDhy6Tp8Q9jeF3Xiu9OAQD3N-weBDEjjAUrI13KiTJZSWXDrD3iqYL2ElDGZoUg3iO/embed?start=false&loop=true&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>',
     references: [
       {
         id: 1,
@@ -27,7 +32,7 @@ export const workList = [
   },
   {
     id: 2,
-    title: "Compartir Reportes de Power BI",
+    title: "Compartir Reportes PowerBI",
     category: "M-Electricidad",
     subCategory: ["cuentos", "amor", "familia"],
     description:

@@ -47,7 +47,7 @@ export const blogList = [
   },
   {
     id: 2,
-    title: "El sabor de Coca-Cola",
+    title: "El sabor de Coca-Cola es mejor",
     category: "Rándom",
     subCategory: ["cuentos", "amor", "familia"],
     description:

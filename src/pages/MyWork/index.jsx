@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom';
 import { workList } from '../../config/myWorks';
 import Chip from '../../components/common/Chip';
 import EmptyList from '../../components/common/EmptyList';
+import useScreenSize from '../../hooks/useScreenSize';
 import './styles.css'
 
 const MyWork = () => {
   const { id } = useParams();
   const [work, setWork] = useState(null);
+  const { width } = useScreenSize();
+
 
   useEffect(() => {
     let work = workList.find((work) => work.id === parseInt(id));
@@ -16,7 +19,6 @@ const MyWork = () => {
       setWork(work)
     }
   }, [id]);
-
   return (
     <div>
       <Link className='work-goBack' to='/sobre-mi/'>
@@ -40,6 +42,12 @@ const MyWork = () => {
           <img src={work.cover} alt='cover'></img>
           <div id='id-description'>
             <div className='work-description' dangerouslySetInnerHTML={{ __html: work.description }} />
+          </div>
+          <div id='work-presentation'>
+            {width < 960
+              ? <div className='work-description' dangerouslySetInnerHTML={{ __html: work.presentation480 }} />
+              : <div className='work-description' dangerouslySetInnerHTML={{ __html: work.presentation960 }} />
+            }
           </div>
           <div className="work-references">
             <p className=''>Referencias</p>

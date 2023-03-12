@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const BlogItem = ({ blog }) => {
 
     let navigate = useNavigate();
-    const routeChange = () =>{
+    const routeChange = () => {
         let routeChange = `/blog/${blog.id}`;
         navigate(routeChange)
     }
