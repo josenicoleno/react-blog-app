@@ -46,7 +46,7 @@ const Blog = () => {
             <div className="blog-references">
               < p className=''>Referencias</p>
               <ol>
-                {blog.references.map((reference, index) => <li key={index}><a href={reference.source}>{reference.name}</a></li>)}
+                {blog.references.map((reference, index) => <li key={index}><a href={reference.source} target="_blank" rel="noopener noreferrer" >{reference.name}</a></li>)}
               </ol>
             </div>
             : <></>

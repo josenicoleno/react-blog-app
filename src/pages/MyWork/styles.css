@@ -69,6 +69,9 @@
 }
 
 .work-description{
+  justify-content:center;
+}
+#work-presentation{
   display:flex;
   justify-content:center;
 }

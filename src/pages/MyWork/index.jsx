@@ -11,14 +11,28 @@ const MyWork = () => {
   const { id } = useParams();
   const [work, setWork] = useState(null);
   const { width } = useScreenSize();
-
-
+  const [presentation, setPresentation] = useState('')
+  let presentationOk = ''
   useEffect(() => {
-    let work = workList.find((work) => work.id === parseInt(id));
+    let work = workList.find((work) => work.id === parseInt(id) && work.active);
     if (work) {
       setWork(work)
+      setPresentation(work.presentation)
     }
   }, [id]);
+
+  const renderPresentation = (() =>
+    width < 960
+      ? (
+        presentationOk = presentation.replace('width="960"', 'width="480"'),
+        presentationOk = presentationOk.replace('height="569"', 'height="299"')
+      )
+      : (
+        presentationOk = presentation.replace('width="480"', 'width="960"'),
+        presentationOk = presentationOk.replace('height="299"', 'height="569"')
+      )
+  )
+
   return (
     <div>
       <Link className='work-goBack' to='/sobre-mi/'>
@@ -44,15 +58,12 @@ const MyWork = () => {
             <div className='work-description' dangerouslySetInnerHTML={{ __html: work.description }} />
           </div>
           <div id='work-presentation'>
-            {width < 960
-              ? <div className='work-description' dangerouslySetInnerHTML={{ __html: work.presentation480 }} />
-              : <div className='work-description' dangerouslySetInnerHTML={{ __html: work.presentation960 }} />
-            }
+            <div className='work-description' dangerouslySetInnerHTML={{ __html: renderPresentation() }} />
           </div>
           <div className="work-references">
             <p className=''>Referencias</p>
             <ol>
-              {work.references.map((reference, index) => <li key={index}><a href={reference.source}>{reference.name}</a></li>)}
+              {work.references.map((reference, index) => <li key={index}><a href={reference.source} target="_blank" rel="noopener noreferrer">{reference.name}</a></li>)}
             </ol>
           </div>
         </div>
