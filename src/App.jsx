@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import PageNotFound from './components/PageNotFound';
 import Home from './pages/Home';
@@ -12,19 +12,19 @@ import MyWork from './pages/MyWork';
 function App() {
   return (
     <div className='container'>
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path='/' element={<App />} />
-          <Route index element={<Home />} />
-          <Route path='/blog/:id' element={<Blog />} />
-          <Route path='/sobre-mi/*' element={<AboutMe />} />
-          <Route path='/work/:id' element={<MyWork/>}/>
-          <Route path='/working/*' element={<WeAreWorking />} />
-          <Route path='*' element={<PageNotFound />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <HashRouter>
+          <NavBar />
+          <Routes>
+            <Route path='/' element={<App />} />
+            <Route index element={<Home />} />
+            <Route path='/blog/:id' element={<Blog />} />
+            <Route path='/sobre-mi/*' element={<AboutMe />} />
+            <Route path='/work/:id' element={<MyWork />} />
+            <Route path='/working/*' element={<WeAreWorking />} />
+            <Route path='*' element={<PageNotFound />} />
+          </Routes>
+          <Footer />
+      </HashRouter>
     </div>
   );
 }
