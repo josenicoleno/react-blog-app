@@ -38,13 +38,12 @@ export const workList = [
       "<ul>" +
       "<li>Distintos tipos de reportes que indican las ganancias en periodos de tiempo</li>" +
       "</ul>" +
-      "Si te interesa este o alguno de los proyectos podés ponerte en contacto conmigo por cualquiera de mis plataformas. "+
-      "<p>Podés mirar un poco más en la presentación de a continuación:</p>", 
+      "Si te interesa este o alguno de los proyectos podés ponerte en contacto conmigo por cualquiera de mis plataformas. " +
+      "<p>Podés mirar un poco más en la presentación de a continuación:</p>",
     authorName: "José Nicoleno",
-    authorAvatar: "/assets/images/fondo blanco.jpeg",
+    authorAvatar: "/assets/images/fondo blanco.jpg",
     createdAt: "15 de Marzo, 2023",
-    cover:
-      "https://scontent-fco2-1.xx.fbcdn.net/v/t39.30808-6/301137454_491598962972763_492081096545186259_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=3y-Y6wBZFHQAX9cTLER&_nc_ht=scontent-fco2-1.xx&oh=00_AfCO6ZHHx6S_T1noT-tH5AHbyzS7BxxPNa9y3GK4e0-AfQ&oe=6410442D",
+    cover: "/assets/images/fondo blanco.jpg",
     presentation:
       '<iframe id="idframe" src="https://docs.google.com/presentation/d/e/2PACX-1vSJ-l7OpaGxumrDhy6Tp8Q9jeF3Xiu9OAQD3N-weBDEjjAUrI13KiTJZSWXDrD3iqYL2ElDGZoUg3iO/embed?start=false&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>',
     references: [
@@ -101,7 +100,7 @@ export const workList = [
     authorName: "José Nicoleno",
     authorAvatar: "/assets/images/fondo blanco.jpeg",
     createdAt: "15 de Marzo, 2023",
-    cover: "https://m-electricidad.com/assets/img/multimedia-16.jpg",
+    cover: "/assets/images/m-electricidad.jpg",
     presentation: "",
     references: [
       {
@@ -141,16 +140,15 @@ export const workList = [
       "de sueldos de los empleados pero sin mantener contacto físico con estos. Así que con estas especificaciones, se desarrolló una aplicación integral con distintos " +
       "módulos que satisfacieran las necesidades. " +
       "Algunos de los módulos que tiene el sistema son: notificaciones, áreas de la empresa, perfil de los empleados, firma digital, usuarios, etc.</br>" +
-      "El sistema permite agregar tipos de documentos. Luego, los usuarios adjuntan la documentación y se la envian a los destinatarios correspondientes. "+
+      "El sistema permite agregar tipos de documentos. Luego, los usuarios adjuntan la documentación y se la envian a los destinatarios correspondientes. " +
       "Los destinatarios ingresan al sistema con usuario y contraseña y solo observan su documentación. Si el documento lo requiere, los destinatarios pueden " +
       "firmar el documento si están de acuerdo con lo que observan. " +
-      "Una vez firmado (si el documento lo requería) pueden descargar la documentación. Todo este flujo queda registrado en sistema.</br> "+
+      "Una vez firmado (si el documento lo requería) pueden descargar la documentación. Todo este flujo queda registrado en sistema.</br> " +
       "Si te interesa este o alguno de los proyectos podés ponerte en contacto conmigo por cualquiera de mis plataformas. ",
     authorName: "José Nicoleno",
     authorAvatar: "/assets/images/fondo blanco.jpeg",
     createdAt: "15 de Marzo, 2023",
-    cover:
-      "https://scontent-fco2-1.xx.fbcdn.net/v/t39.30808-6/246738592_3042608979357069_7989065807416439949_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=F16V2vqQ_WoAX9lymlK&_nc_ht=scontent-fco2-1.xx&oh=00_AfCovgUEuV1VNpA5oNIEEH1Og4u4pdJkImTR9BRl2E3N_Q&oe=6410328D",
+    cover: "/assets/images/promet.png",
     presentation:
       '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTFEXikuXXpUHrVrXqZ5rwelyuX7xiqTSt-w3VYaKIc3MNzS9K7qoLRkwDB24xkf0ameUUYb1qf5pDT/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>',
     references: [
