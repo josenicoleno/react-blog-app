@@ -8,6 +8,7 @@ import WeAreWorking from './components/common/WeAreWorking';
 import Footer from './components/Footer';
 import AboutMe from './pages/About me';
 import MyWork from './pages/MyWork';
+import ScrollButton from './hooks/scrollButton';
 
 function App() {
   return (
@@ -15,15 +16,16 @@ function App() {
       <HashRouter>
           <NavBar />
           <Routes>
-            <Route path='/' element={<App />} />
+            <Route path='' element={<App />} />
             <Route index element={<Home />} />
-            <Route path='/blog/:id' element={<Blog />} />
-            <Route path='/sobre-mi/*' element={<AboutMe />} />
-            <Route path='/work/:id' element={<MyWork />} />
-            <Route path='/working/*' element={<WeAreWorking />} />
+            <Route path='blog/:id' element={<Blog />} />
+            <Route path='sobre-mi/*' element={<AboutMe />} />
+            <Route path='work/:id' element={<MyWork />} />
+            <Route path='working/*' element={<WeAreWorking />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>
           <Footer />
+          <ScrollButton/>
       </HashRouter>
     </div>
   );
