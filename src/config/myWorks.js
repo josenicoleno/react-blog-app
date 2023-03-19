@@ -4,6 +4,8 @@ export const workList = [
     title: "Punto de venta",
     category: "Fondo blanco",
     subCategory: [".Net", "SQL-Server", "Genexus 15", "WorkWithPlus", "IIS"],
+    shortDescription:
+      "Sistema para gestión de compras y ventas para negocios. LLeva a cabo el control del stock de los productos. Ofrece información mediante distintos reportes que se pueden filtrar por periodos de tiempo.",
     description:
       "<p>Sistema de punto de venta con los siguientes m&oacute;dulos:</p>" +
       "<p><strong>Seguridad</strong></p>" +
@@ -36,7 +38,8 @@ export const workList = [
       "<ul>" +
       "<li>Distintos tipos de reportes que indican las ganancias en periodos de tiempo</li>" +
       "</ul>" +
-      "<p>Podés mirar un poco más en la presentación de a continuación</p>",
+      "Si te interesa este o alguno de los proyectos podés ponerte en contacto conmigo por cualquiera de mis plataformas. "+
+      "<p>Podés mirar un poco más en la presentación de a continuación:</p>", 
     authorName: "José Nicoleno",
     authorAvatar: "/assets/images/fondo blanco.jpeg",
     createdAt: "15 de Marzo, 2023",
@@ -71,10 +74,12 @@ export const workList = [
       "PowerBI",
       "API",
     ],
+    shortDescription:
+      "Sistema para compartir información y reportes de la empresa entre distintas personas o áreas de la misma. ",
     description:
       "<p><b>Sistema de reportes</b>:</p>" +
       "<p>La empresa solicit&oacute; que entre usuarios se puedan subir y compartir reportes realizados en PowerBi. " +
-      "Por ejemplo, el &Aacute;rea de Gerencia comparte unos reportes con el &Aacute;rea de Calidad y que otras &aacute;reas no puedan acceder a estos. " +
+      "Por ejemplo, el &Aacute;rea de Gerencia comparte unos reportes con el &Aacute;rea de Calidad y que otras &aacute;reas o usuarios no puedan acceder a ver estos. " +
       "O que un usuario comparta un reporte de PowerBi con un usuario en espec&iacute;fico.&nbsp;</p>" +
       "<p>El sistema se compone con los siguientes m&oacute;dulos:&nbsp;</p>" +
       "<p><strong>Seguridad</strong></p>" +
@@ -92,7 +97,7 @@ export const workList = [
       "<li>Administraci&oacute;n de los reportes</li>" +
       "<li>Asignaci&oacute;n de reportes a usuarios y/o &aacute;reas de la empresa.</li>" +
       "</ul>" +
-      "<p>&nbsp;</p>",
+      "Si te interesa este o alguno de los proyectos podés ponerte en contacto conmigo por cualquiera de mis plataformas. ",
     authorName: "José Nicoleno",
     authorAvatar: "/assets/images/fondo blanco.jpeg",
     createdAt: "15 de Marzo, 2023",
@@ -124,10 +129,23 @@ export const workList = [
       "Genexus 15",
       "WorkWithPlus",
       "TomCat",
-      "API",
-      "Notificaciones"
+      "APIs",
+      "Notificaciones",
     ],
-    description: "Working!",
+    shortDescription:
+      "El sistema de Gestión de Documentos LIGHT permite subir, guardar y notificar cualquier tipo de documentación a los empleados de la organización. " +
+      "Registrando todas las etapas del ciclo de vida del documento y permitiendo la firma electrónica del mismo. De esta manera, el equipo de recursos " +
+      "humanos puede agilizar sus procesos y reducir costos.",
+    description:
+      "Sistema creado con un grupo de amigos programadores para una empresa salteña que, para el tiempo de cuarentena, quería originalmente enviar los recibos " +
+      "de sueldos de los empleados pero sin mantener contacto físico con estos. Así que con estas especificaciones, se desarrolló una aplicación integral con distintos " +
+      "módulos que satisfacieran las necesidades. " +
+      "Algunos de los módulos que tiene el sistema son: notificaciones, áreas de la empresa, perfil de los empleados, firma digital, usuarios, etc.</br>" +
+      "El sistema permite agregar tipos de documentos. Luego, los usuarios adjuntan la documentación y se la envian a los destinatarios correspondientes. "+
+      "Los destinatarios ingresan al sistema con usuario y contraseña y solo observan su documentación. Si el documento lo requiere, los destinatarios pueden " +
+      "firmar el documento si están de acuerdo con lo que observan. " +
+      "Una vez firmado (si el documento lo requería) pueden descargar la documentación. Todo este flujo queda registrado en sistema.</br> "+
+      "Si te interesa este o alguno de los proyectos podés ponerte en contacto conmigo por cualquiera de mis plataformas. ",
     authorName: "José Nicoleno",
     authorAvatar: "/assets/images/fondo blanco.jpeg",
     createdAt: "15 de Marzo, 2023",

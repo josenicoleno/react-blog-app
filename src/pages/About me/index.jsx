@@ -34,7 +34,7 @@ const AboutMe = () => {
         </div>
         <div className='cvSection'>
           <a href={data.urlCvSpanish} target="_blank" rel="noopener noreferrer"><img src='/assets/images/espana.png' alt='Castellano'></img></a>
-          {/* <a href={data.urlCvEnglish} target="_blank" rel="noopener noreferrer"><img src='/assets/images/italia.png' alt='Italiano'></img></a> */}
+          <a href={data.urlCvItalian} target="_blank" rel="noopener noreferrer"><img src='/assets/images/italia.png' alt='Italiano'></img></a>
           <a href={data.urlCvEnglish} target="_blank" rel="noopener noreferrer"><img src='/assets/images/inglaterra.png' alt='Inglés'></img></a>
         </div>
         <div className='myWorkList'>

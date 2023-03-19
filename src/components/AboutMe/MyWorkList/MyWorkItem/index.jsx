@@ -14,7 +14,8 @@ const MyWorkItem = ({ work }) => {
             <img src={work.cover} alt={work.cover} className="workItem-cover"></img>
             <Chip label={work.category} />
             <h3>{work.title}</h3>
-            <p className='workItem-description'>{work.description}</p>
+            <p className='workItem-description' dangerouslySetInnerHTML={{ __html: work.shortDescription }} />
+            {/* <p className='workItem-description'>{work.description}</p> */}
             <footer>
                 <Link to={`/work/${work.id}`} className="workItem-link">Ir →</Link>
             </footer>
