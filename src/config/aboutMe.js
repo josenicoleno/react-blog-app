@@ -4,7 +4,7 @@ export const aboutMe = [
     language: "es",
     photo: "/assets/images/perfil con fondo.png",
     description:
-      'Me llamo José. Orgulloso de haber nacido en <a href="https://goo.gl/maps/s3hrT3Dd13Ru8mP5A" target="_blank" rel="noopener noreferrer"> Salta, Argentina.</a><br />' +
+      'Me llamo José. Nacido en <a href="https://goo.gl/maps/s3hrT3Dd13Ru8mP5A" target="_blank" rel="noopener noreferrer"> Salta, Argentina.</a><br />' +
       'Estudié y me gradué de Licenciado en Análisis de Sistemas en la Universidad Nacional de Salta (<a href="https://www.unsa.edu.ar/" target="_blank" rel="noopener noreferrer">UNSa</a>).<br />' +
       'Me gusta mucho aprender, viajar y los deportes. Soy referí y jugador de rugby de <a href="https://www.facebook.com/gytoficial" target="_blank" rel="noopener noreferrer">Gimnasia y Tiro de Salta</a>. ' + 
       'También me encanta la música y los festivales, pero soy fanático del <a href="https://cuartetodenos.com.uy/" target="_blank" rel="noopener noreferrer">Cuarteto de Nos</a>.<br />' +
