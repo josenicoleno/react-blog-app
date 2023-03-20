@@ -7,8 +7,18 @@
   bottom: 10px;
   right: 10px;
   z-index: 2;
-  animation-name: subir;
-  animation-duration: 1s;
+  /* animation-name: subir; */
+  /* animation-duration: 1s; */
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.ir-arriba:hover {
+  opacity: 60%;
+}
+
+.hidden {
+  opacity: 0%;
 }
 
 @keyframes subir {
@@ -18,7 +28,15 @@
   }
 
   100% {
-   bottom: 10px;
-   right: 10px;
+    bottom: 10px;
+    right: 10px;
   }
+}
+
+.progress-bar {
+  height: 1rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
 }

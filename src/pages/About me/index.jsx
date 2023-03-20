@@ -10,15 +10,16 @@ const AboutMe = () => {
   const defaultLangage = 'es'
   const e = 'es' //esta tiene que ser context
   const [data, setData] = useState(aboutMe);
-  const [resume] = useState(cv)
+  const [resume, setResume] = useState(cv)
 
   useEffect(() => {
     let data = aboutMe.find(data => data.language === e)
     setData(data?.description ? data : aboutMe.find(data => data.language === defaultLangage))
 
+    let resume = cv.filter(resume => resume.active)
+    setResume(resume)
   }, []);
 
-  console.log(resume)
   if (data.description) {
     var doc = document.getElementById("id-description")
     doc.innerHTML = `<p>${data.description}</p>`;

@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.css';
 
 const ScrollButton = () => {
-
-    const [visible, setVisible] = useState(false)
-
+    // const [visible, setVisible] = useState(false)
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
+        const backToTopButton = document.getElementById("ir-arriba")
+
         if (scrolled > 300) {
-            setVisible(true)
+            // setVisible(true)
+            backToTopButton.classList.remove("hidden")
         }
         else if (scrolled <= 300) {
-            setVisible(false)
+            // setVisible(false)
+            backToTopButton.classList.add("hidden")
         }
     };
 
@@ -27,12 +29,11 @@ const ScrollButton = () => {
     window.addEventListener('scroll', toggleVisible);
 
     return (
-        visible
-            ?
-            <i className="ir-arriba" onClick={scrollToTop} title="Volver arriba">
-                <i className="fa fa-arrow-circle-up" aria-hidden="true"></i>
-            </i >
-            : <></>
+
+        <i id='ir-arriba' className="ir-arriba hidden" onClick={scrollToTop} title="Volver arriba">
+            <i className="fa fa-arrow-circle-up" ></i>
+        </i >
+
     )
 }
 

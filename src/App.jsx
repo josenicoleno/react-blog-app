@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import AboutMe from './pages/About me';
 import MyWork from './pages/MyWork';
 import ScrollButton from './hooks/scrollButton';
+import VisitAccount from './components/VisitAccount';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           </Routes>
           <Footer />
           <ScrollButton/>
+          <VisitAccount/>
       </HashRouter>
     </div>
   );
