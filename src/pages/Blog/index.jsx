@@ -42,7 +42,8 @@ const Blog = () => {
                 </div>
             )}
           </div>
-          {blog.references.length > 0 ?
+          {blog.references.length > 0
+            ?
             <div className="blog-references">
               < p className=''>Referencias</p>
               <ol>

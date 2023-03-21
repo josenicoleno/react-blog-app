@@ -60,12 +60,16 @@ const MyWork = () => {
           <div id='work-presentation'>
             <div className='work-description' dangerouslySetInnerHTML={{ __html: renderPresentation() }} />
           </div>
-          <div className="work-references">
-            <p className=''>Referencias</p>
-            <ol>
-              {work.references.map((reference, index) => <li key={index}><a href={reference.source} target="_blank" rel="noopener noreferrer">{reference.name}</a></li>)}
-            </ol>
-          </div>
+          {work.references.length
+            ?
+            <div className="work-references">
+              <p className=''>Referencias</p>
+              <ol>
+                {work.references.map((reference, index) => <li key={index}><a href={reference.source} target="_blank" rel="noopener noreferrer">{reference.name}</a></li>)}
+              </ol>
+            </div>
+            : <></>
+          }
         </div>
       }
     </div >

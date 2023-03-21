@@ -165,4 +165,62 @@ export const workList = [
     },
     active: true,
   },
+  {
+    id: 4,
+    title: "Compra de metales",
+    category: "Metales Pergamino",
+    subCategory: [".Net", "SQL-Server", "Genexus 15", "WorkWithPlus", "IIS"],
+    shortDescription:
+      "El sistema de compras de metales y de chatarras lleva a cabo el control de gastos de las compras de materiales y el stock del mismo, " +
+      "y luego la recaudación de la venta de esos metales.",
+    description:
+      "<p>Una aplicación que permite ir registrando las compras de materiales. " +
+      "El sistema muestra cuánto dinero la empresa va invirtiendo por día o semana o en un periodo indicado. " +
+      "La aplicacion también muestra cuanto material hay en stock.</p>" +
+      "<p>El sistema permite generar ordenes de venta en las cuales se registran los materiales a vender, la cantidad y los precios pactados de venta.</p>" +
+      "<p>Entre los distinitos módulos que tiene el sistema se encuentran:</p>" +
+      "<p><strong>Seguridad</strong></p>" +
+      "<ul>" +
+      "<li>Logueo mediante usuario y contrase&ntilde;a</li>" +
+      "<li>Uso de roles y permisos para realizar acciones o visualizar informaci&oacute;n" +
+      "<ul>" +
+      "<li>Empleado</li>" +
+      "<li>Due&ntilde;o</li>" +
+      "<li>Administrador</li>" +
+      "</ul>" +
+      "</li>" +
+      "</ul>" +
+      "<p><strong>Materiales</strong></p>" +
+      "<ul>" +
+      "<li>Administraci&oacute;n de datos del materiales</li>" +
+      "<li>Control del stock</li>" +
+      "</ul>" +
+      "<p><strong>Compras</strong></p>" +
+      "<ul>" +
+      "<li>Administraci&oacute;n de las compras de los materiales</li>" +
+      "<li>Actualización el stock</li>" +
+      "</ul>" +
+      "<p><strong>Ventas</strong></p>" +
+      "<ul>" +
+      "<li>Administraci&oacute;n de las ventas de los materiales</li>" +
+      "<li>Actualizaci&oacute;n del stock</li>" +
+      "</ul>" +
+      "<p><strong>Reportes</strong></p>" +
+      "<ul>" +
+      "<li>Distintos tipos de reportes que indican las ganancias en periodos de tiempo, las inversiones, las ventas, etc.</li>" +
+      "</ul>" +
+      "Si te interesa este o alguno de los proyectos podés ponerte en contacto conmigo por cualquiera de mis plataformas. ",
+    authorName: "José Nicoleno",
+    authorAvatar: "/assets/images/fondo blanco.jpg",
+    createdAt: "15 de Marzo, 2023",
+    cover: "/assets/images/MetalesPergamino.png",
+    presentation: "",
+    references: [],
+    coments: {
+      id: 1,
+      authorName: "",
+      createdAt: "19/02/2023",
+    },
+    active: true,
+  },
 ];
