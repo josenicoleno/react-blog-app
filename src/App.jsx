@@ -1,6 +1,6 @@
 import './App.css';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar';
+import NavBar from './components/Blog/NavBar';
 import PageNotFound from './components/PageNotFound';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -10,6 +10,8 @@ import AboutMe from './pages/About me';
 import MyWork from './pages/MyWork';
 import ScrollButton from './hooks/scrollButton';
 import VisitAccount from './components/VisitAccount';
+import MyWorks from './pages/MyWorks';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -19,9 +21,12 @@ function App() {
           <Routes>
             <Route path='' element={<App />} />
             <Route index element={<Home />} />
+            <Route path='blog' element={<Blog />} />
             <Route path='blog/:id' element={<Blog />} />
-            <Route path='sobre-mi/*' element={<AboutMe />} />
-            <Route path='work/:id' element={<MyWork />} />
+            <Route path='about-me/*' element={<AboutMe />} />
+            <Route path='my-works/*' element={<MyWorks/>} />
+            <Route path='my-works/:id' element={<MyWork />} />
+            <Route path='contact' element={<Contact />} />
             <Route path='working/*' element={<WeAreWorking />} />
             <Route path='*' element={<PageNotFound />} />
           </Routes>

@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './styles.css'
 import { aboutMe, cv } from '../../config/aboutMe'
 import { Link } from 'react-router-dom';
-import MyWorkList from '../../components/AboutMe/MyWorkList';
-import { workList } from '../../config/myWorks';
-import Header from '../../components/AboutMe/MyWorkList/Header';
 
 const AboutMe = () => {
   const defaultLangage = 'es'
@@ -45,10 +42,7 @@ const AboutMe = () => {
           </div>
           : <></>
         }
-        <div className='myWorkList'>
-          <Header />
-          <MyWorkList works={workList} />
-        </div>
+       
       </div>
     </>
   )

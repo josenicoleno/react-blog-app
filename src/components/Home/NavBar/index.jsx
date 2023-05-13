@@ -14,7 +14,10 @@ const NavBar = () => {
           {/* Los elementos que se ocultan */}
           <Nav className="me-auto">
             {/* <Nav.Link href="/">Home</Nav.Link> */}
-            <Link className="nav-link" to="sobre-mi/">Sobre mí</Link>
+            <Link className="nav-link" to="blog/">Blog</Link>
+            <Link className="nav-link" to="about-me/">Sobre mí</Link>
+            <Link className="nav-link" to="my-works/">Mis trabajos</Link>
+            <Link className="nav-link" to="contact/">Contacto</Link>
             {/* <NavDropdown title="Sobre mí" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Mi works</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

@@ -1,3 +1,14 @@
+export const aboutMe = [
+  {
+    id: 1,
+    language: "es",
+    description:
+      "A continuación, se encuentran algunos de los trabajos particulares que he realizado a lo largo de mi carrera profesional.\n" +
+      "Cada uno de estos sistemas ofrecen distintas soluciones a diferentes modelos de negocios, adecuándose a las necesidades de cada cliente.\n" +
+      "Puedes ingresar y consultar que hace cada uno!",
+  },
+];
+
 export const workList = [
   {
     id: 1,

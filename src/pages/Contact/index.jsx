@@ -1,7 +1,7 @@
 import React from 'react'
 import WeAreWorking from '../../components/common/WeAreWorking'
 
-const Home = () => {
+const Contact = () => {
   return (
     <div>
       <WeAreWorking/>
@@ -9,4 +9,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Contact

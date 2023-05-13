@@ -6,7 +6,7 @@ import Chip from '../../../common/Chip';
 const MyWorkItem = ({ work }) => {
     let navigate = useNavigate();
     const routeChange = () => {
-        let routeChange = `/work/${work.id}`;
+        let routeChange = `/my-works/${work.id}`;
         navigate(routeChange)
     }
     return (
@@ -17,7 +17,7 @@ const MyWorkItem = ({ work }) => {
             <p className='workItem-description' dangerouslySetInnerHTML={{ __html: work.shortDescription }} />
             {/* <p className='workItem-description'>{work.description}</p> */}
             <footer>
-                <Link to={`/work/${work.id}`} className="workItem-link">Ir →</Link>
+                <Link to={`/mis-trabajos/${work.id}`} className="workItem-link">Ir →</Link>
             </footer>
         </div>
     )

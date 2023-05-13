@@ -4,7 +4,7 @@ import './styles.css';
 const Header = () => {
   return (
     <header className='home-header'>
-        <h2>Bienvenidos a mi blog</h2>
+        <h2>Bienvenid@ a mi blog</h2>
         {/* <h1>
             <span>"<span>My Blog</span>"</span>
         </h1> */}

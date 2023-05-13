@@ -21,9 +21,9 @@ const Footer = () => {
                 <div className="footer-menu">
                     <ul className="f-menu">
                         <li><Link className='f-link' to='/'>Home</Link></li>
-                        <li><Link className='f-link' to='/sobre-mi/'>Sobre mí</Link></li>
-                        <li><Link className='f-link' to='/working/'>Contacto</Link></li>
-                        {/* <li><a href="https://www.fb.com">Blog</a></li> */}
+                        <li><Link className='f-link' to='/about-me/'>Sobre mí</Link></li>
+                        <li><Link className='f-link' to='/my-works/'>Mis trabajos</Link></li>
+                        <li><Link className='f-link' to='/contact/'>Contacto</Link></li>
                     </ul>
                 </div>
             </div>
