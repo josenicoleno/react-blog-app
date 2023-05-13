@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import EmptyList from '../../components/common/EmptyList';
 import BlogList from '../../components/Blog/BlogList';
 import Header from '../../components/Blog/Header'
-import SearchBar from '../../components/Home/SearchBar';
+import SearchBar from '../../components/Blog/SearchBar';
 import { blogList } from '../../config/data';
 
 const Blog = () => {
