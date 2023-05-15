@@ -1,6 +1,5 @@
 import './App.css';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import NavBar from './components/Blog/NavBar';
 import PageNotFound from './components/PageNotFound';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -12,12 +11,13 @@ import ScrollButton from './hooks/scrollButton';
 import VisitAccount from './components/VisitAccount';
 import MyWorks from './pages/MyWorks';
 import Contact from './pages/Contact';
+import NavBar from './components/Home/NavBar';
 
 function App() {
   return (
     <div className='container'>
       <HashRouter>
-          <NavBar />
+          <NavBar/>
           <Routes>
             <Route path='' element={<App />} />
             <Route index element={<Home />} />
