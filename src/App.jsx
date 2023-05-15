@@ -12,27 +12,28 @@ import VisitAccount from './components/VisitAccount';
 import MyWorks from './pages/MyWorks';
 import Contact from './pages/Contact';
 import NavBar from './components/Home/NavBar';
+import BlogElement from './pages/BlogElement';
 
 function App() {
   return (
     <div className='container'>
       <HashRouter>
-          <NavBar/>
-          <Routes>
-            <Route path='' element={<App />} />
-            <Route index element={<Home />} />
-            <Route path='blog' element={<Blog />} />
-            <Route path='blog/:id' element={<Blog />} />
-            <Route path='about-me/*' element={<AboutMe />} />
-            <Route path='my-works/*' element={<MyWorks/>} />
-            <Route path='my-works/:id' element={<MyWork />} />
-            <Route path='contact' element={<Contact />} />
-            <Route path='working/*' element={<WeAreWorking />} />
-            <Route path='*' element={<PageNotFound />} />
-          </Routes>
-          <Footer />
-          <ScrollButton/>
-          <VisitAccount/>
+        <NavBar />
+        <Routes>
+          <Route path='' element={<App />} />
+          <Route index element={<Home />} />
+          <Route path='blog' element={<Blog />} />
+          <Route path='blog/:id' element={<BlogElement />} />
+          <Route path='about-me/*' element={<AboutMe />} />
+          <Route path='my-works/*' element={<MyWorks />} />
+          <Route path='my-works/:id' element={<MyWork />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='working/*' element={<WeAreWorking />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+        <Footer />
+        <ScrollButton />
+        <VisitAccount />
       </HashRouter>
     </div>
   );
