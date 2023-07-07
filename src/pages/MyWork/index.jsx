@@ -13,6 +13,7 @@ const MyWork = () => {
   const { width } = useScreenSize();
   const [presentation, setPresentation] = useState('')
   let presentationOk = ''
+
   useEffect(() => {
     let work = workList.find((work) => work.id === parseInt(id) && work.active);
     if (work) {
@@ -20,6 +21,11 @@ const MyWork = () => {
       setPresentation(work.presentation)
     }
   }, [id]);
+
+  const getText = (html) => {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    return doc.body.textContent
+  }
 
   const renderPresentation = (() =>
     width < 960
@@ -65,7 +71,11 @@ const MyWork = () => {
             <div className="work-references">
               <p className=''>Referencias</p>
               <ol>
-                {work.references.map((reference, index) => <li key={index}><a href={reference.source} target="_blank" rel="noopener noreferrer">{reference.name}</a></li>)}
+                {work.references.map((reference, index) =>
+                  <li key={index}>
+                    <a href={reference.source} target="_blank" rel="noopener noreferrer">{reference.name}</a>
+                  </li>)
+                }
               </ol>
             </div>
             : <></>
