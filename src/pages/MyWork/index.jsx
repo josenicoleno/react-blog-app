@@ -41,7 +41,7 @@ const MyWork = () => {
 
   return (
     <div>
-      <Link className='work-goBack' to='/sobre-mi/'>
+      <Link className='work-goBack' to='/my-works/'>
         <span>&#8592;</span>Volver
       </Link>
       {!work ?

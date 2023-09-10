@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './styles.css'
 import { aboutMe, cv } from '../../config/aboutMe'
-import { Link } from 'react-router-dom';
+/* import { Link } from 'react-router-dom'; */
 
 const AboutMe = () => {
   const defaultLangage = 'es'
@@ -24,9 +24,9 @@ const AboutMe = () => {
 
   return (
     <>
-      <Link className='blog-goBack' to='/'>
+      {/* <Link className='blog-goBack' to='/'>
         <span>&#8592;</span>Volver
-      </Link>
+      </Link> */}
       <div className='aboutMe-wrap'>
         <h2>Sobre mí</h2>
         <div id='id-about-me' className='aboutMe-columns'>

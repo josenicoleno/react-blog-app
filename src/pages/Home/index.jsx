@@ -1,10 +1,11 @@
 import React from 'react'
-import WeAreWorking from '../../components/common/WeAreWorking'
+import AboutMe from '../About me'
+import './styles.css'
 
 const Home = () => {
   return (
     <div>
-      <WeAreWorking/>
+      <AboutMe/>
     </div>
   )
 }

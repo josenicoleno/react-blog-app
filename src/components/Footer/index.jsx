@@ -20,9 +20,9 @@ const Footer = () => {
                 <p>Copyright &copy; <a href="https://www.instagram.com/jose.nicoleno/">José Nicoleno</a>  </p>
                 <div className="footer-menu">
                     <ul className="f-menu">
-                        <li><Link className='f-link' to='/'>Home</Link></li>
-                        <li><Link className='f-link' to='/about-me/'>Sobre mí</Link></li>
+                        <li><Link className='f-link' to='/'>Inicio</Link></li>
                         <li><Link className='f-link' to='/my-works/'>Mis trabajos</Link></li>
+                        <li><Link className='f-link' to='/blog/'>Blog</Link></li>
                         <li><Link className='f-link' to='/contact/'>Contacto</Link></li>
                     </ul>
                 </div>

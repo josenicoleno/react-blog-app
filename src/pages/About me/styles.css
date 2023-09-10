@@ -35,7 +35,7 @@
 .aboutMe-columns img {
   width: 300px;
   border-radius: 50%;
-  border: 1px solid;
+  border: 0px solid;
 }
 
 .aboutMe-columns p {
