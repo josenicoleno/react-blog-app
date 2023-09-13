@@ -14,11 +14,11 @@ export const menu = [
       description: "Sobre mí",
       to: "about-me/"
     }, */
-  {
+ /*  {
     orden: 4,
     description: "Contacto",
     to: "contact/"
-  },
+  }, */
   /* {
     orden: 5,
     description: "ES",

@@ -21,11 +21,11 @@ const MyWork = () => {
       setPresentation(work.presentation)
     }
   }, [id]);
-
+/* 
   const getText = (html) => {
     const doc = new DOMParser().parseFromString(html, 'text/html');
     return doc.body.textContent
-  }
+  } */
 
   const renderPresentation = (() =>
     width < 960
